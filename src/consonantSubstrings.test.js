@@ -1,7 +1,7 @@
 const consonantSubstrings = require('./consonantSubstrings');
 
 describe('consonantSubstrings', () => {
-  it('should return consonantSubstrings', () => {
-    expect(consonantSubstrings()).toBe('consonantSubstrings');
+  it('"zodiac" should return 26', () => {
+    expect(consonantSubstrings("zodiac")).toBe(26);
   });
 });
